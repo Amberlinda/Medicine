@@ -1,0 +1,301 @@
+/*---------------------------
+DEVICES OF WIDTH 767px TO 1200px
+-----------------------------*/
+
+@media only screen and (max-width:1200px) {
+
+    .section-testimonials {
+        margin-top: 45%;
+    }
+
+    .text-part-2 {
+
+        height: 80%;
+    }
+
+    .search-text {
+        width: 15%;
+    }
+}
+
+/*---------------------------
+DEVICES OF WIDTH 767px TO 1024PX
+-----------------------------*/
+
+@media only screen and (max-width:1023px) {
+    .text {
+        font-size: 90%;
+    }
+
+    .flex-1-image {
+        width: 50%;
+
+    }
+
+    .flex-1-image p {
+        -webkit-box-flex: 40%;
+        -ms-flex: 40%;
+        flex: 40%;
+        margin-left: 20px;
+    }
+
+    .text-part-2 div {
+        width: 35%;
+    }
+
+    input[type=text],
+    input[type=email],
+    input[type=tel],
+    input[type=submit] {
+        padding: 5px;
+    }
+
+    .partners-div {
+        top: 65%;
+    }
+
+    .partner-btn {
+        margin-top: 32%;
+    }
+
+    .section-testimonials {
+        margin-top: 50%;
+    }
+
+    .search-text {
+        width: 15%;
+        height: 35px;
+    }
+
+}
+
+
+/*---------------------------
+DEVICES OF WIDTH 0 TO 767PX
+-----------------------------*/
+@media only screen and (max-width:767px) {
+
+    .search {
+        margin-right: 20px;
+
+    }
+
+    .main-nav {
+        left: 67%;
+    }
+
+    .text {
+        font-size: 80%;
+        width: 45%;
+    }
+
+    .link-image {
+        margin-top: 30%;
+    }
+
+    .link-image li {
+        width: 300px;
+        height: auto;
+        margin-left: 2%;
+    }
+
+    .flex-image {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .flex-image > li {
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        margin-left: 22%;
+    }
+
+    .flex-1-image {
+        width: 65%;
+
+    }
+
+    .flex-1-image p {
+        font-size: 110%;
+    }
+
+    .flex-text {
+        width: 25%;
+        font-size: 110%;
+    }
+
+
+    .text-part-2 div {
+        width: 50%;
+    }
+
+    input[type=text],
+    input[type=email],
+    input[type=tel],
+    input[type=submit] {
+        padding: 5px;
+    }
+
+    .partners-div {
+        top: 65%;
+    }
+
+    .partner-btn {
+        margin-top: 40%;
+    }
+
+    .section-testimonials {
+        margin-top: 65%;
+    }
+}
+
+/*---------------------------
+DEVICES OF WIDTH 0 TO 480PX
+-----------------------------*/
+
+@media only screen and (max-width:480px) {
+
+    .search {
+        margin-right: 10px;
+    }
+
+    .search-text {
+        left: 30%;
+        -webkit-transform: translate(-0%, -5%);
+        transform: translate(-0%, -5%);
+    }
+
+    .main-nav {
+        left: 50%;
+    }
+
+    .inner-nav li {
+        margin-right: 10px;
+    }
+
+    .text {
+        font-size: 80%;
+        width: 70%;
+        height: 75%;
+    }
+
+    .link-image {
+        margin-top: 50%;
+    }
+
+    .link-image li {
+        width: 200px;
+        height: auto;
+    }
+
+    .flex-image {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .flex-image > li {
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        margin-left: 15%;
+        width: 300px;
+        height: auto;
+    }
+
+    .flex-1-image {
+        width: 40%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+
+    }
+
+    .flex-1-image {
+        width: 65%;
+
+    }
+
+    .flex-1-image p {
+        font-size: 110%;
+    }
+
+    .flex-text {
+        width: 25%;
+        font-size: 110%;
+    }
+
+
+    .text-part-2 div {
+        width: 50%;
+    }
+
+    .text-1 {
+        font-size: 80%;
+        padding: 0;
+    }
+
+    .text-part-2 {
+
+        position: absolute;
+        top: 25%;
+        left: 5%;
+        -webkit-box-shadow: 0 2px 2px #cbcbcb;
+        box-shadow: 0 2px 2px #cbcbcb;
+    }
+
+    .text-part-2 div {
+        width: 50%;
+        padding: 5px;
+    }
+
+    input[type=text],
+    input[type=email],
+    input[type=tel],
+    input[type=submit] {
+        padding: 3px;
+    }
+
+    .partner-icon {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -ms-flex-line-pack: center;
+        align-content: center;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -webkit-box-flex: 30%;
+        -ms-flex: 30%;
+        flex: 30%;
+    }
+
+    .partner-icon > li {
+        margin-right: 20px;
+
+    }
+
+    .partners-div {
+        top: 60%;
+    }
+
+    .partner-btn {
+        margin-top: 60%;
+    }
+
+    .section-testimonials {
+        margin-top: 100%;
+    }
+}
