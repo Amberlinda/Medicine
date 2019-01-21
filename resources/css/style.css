@@ -211,7 +211,7 @@ header {
 
 }
 
-.flex-1-image img{
+.flex-1-image img {
     width: 250px;
     height: 200px;
 }
@@ -335,6 +335,31 @@ header {
     justify-content: center;
     color: #fff;
     flex-wrap: wrap;
+    position: relative;
+}
+
+.first-name,
+.last-name,
+.email,
+.mobile-number {
+    position: absolute;
+    top: 40%;
+    left: 18%;
+    transform: translate(-0%, -0%);
+}
+
+.first-name-box:focus ~ .first-name {
+    top: -30%;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.last-name-box:focus ~ .last-name,
+.email-box:focus ~ .email,
+.mobile-number-box:focus ~ .mobile-number {
+    left: -7%;
+    color: #fff;
+    transition: 0.5s;
 }
 
 input[type=text],
@@ -345,7 +370,7 @@ input[type=submit] {
     border-radius: 200px;
     padding: 8px;
     border: 1px solid #fff;
-
+    color: #000;
 }
 
 input[type=submit] {
@@ -689,7 +714,7 @@ h2 {
 
 h2:after {
     content: " ";
-    background-color: #555;
+    background-color: #b0277b;
     width: 100px;
     margin: 0 auto;
     height: 2px;
@@ -722,7 +747,7 @@ h4 {
     left: 68%;
     -webkit-transform: translate(-0%, -5%);
     transform: translate(-0%, -5%);
-    margin-top: 20px;
+    padding-top: 10px;
     background: transparent;
 }
 
@@ -738,7 +763,7 @@ h4 {
     left: 50%;
     display: none;
     -webkit-transform: translate(-0%, -5%);
-    transform: translate(-0%, -5%);
+    transform: translate(-10%, -35%);
 }
 
 .inner-nav {
@@ -778,4 +803,17 @@ h4 {
 
 .main-nav li a:hover {
     border-bottom: 2px solid #16a085;
+}
+
+.sticky {
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+    background: linear-gradient(to right, #b0277b 70%, #fff 30%);
+    height: 62px;
+}
+
+.sticky a:link,
+.sticky a:visited {
+    color: #fff;
 }
